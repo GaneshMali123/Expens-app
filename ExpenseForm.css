@@ -1,0 +1,34 @@
+.new-expense-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-expense-control label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    display: block;
+    color: #fff;
+}
+
+.new-expense-control input {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    padding: .5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+    background-color: rgb(95, 209, 234);
+    color: #0c0b0b;
+}
+
+.new-expense-actions {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: right;
+    width: 50px;
+}

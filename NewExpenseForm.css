@@ -1,0 +1,30 @@
+.new-expense {
+    background-color: rgb(33, 33, 33);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 340px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(116, 115, 115);
+    color: #fff;
+    border-radius: 12px;
+    margin-right: 1rem;
+    border: none;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+    transition: .3s;
+}
+
+.new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
